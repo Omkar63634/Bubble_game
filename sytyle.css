@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f172a;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pannel {
+    height: 90%;
+    width: 90%;
+    background-color: #1e293b;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#toppannel {
+    height: 18%;
+    width: 100%;
+    background-color: #6f95d3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+}
+
+.elem {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.box {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+#btmpannel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #f1f5f9;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    background-color: #38bdf8;
+    box-shadow: 0 4px 8px rgba(56, 189, 248, 0.3);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.bubble:hover {
+    background-color: #16a34a;
+    transform: scale(1.1);
+}
+
+/* .bubble{
+    display: flex; (here you were doing the display flex but you had to do it in the btmplane)
+} */
+#footer {
+    margin-top: 10px;
+    color: #94a3b8;
+    font-size: 0.9rem;
+    text-align: center;
+}
